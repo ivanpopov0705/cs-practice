@@ -1,9 +1,5 @@
+def add(a, b):
+    return a + b
 
-a = float(input("Первое число: "))
-b = float(input("Второе число: "))
-if b != 0:
-    print("Частное:", a / b)
-else:
-    print("Деление на ноль невозможно")
-print("Произведение:", a * b)
-print("Частное:", a / b)
+print("Калькулятор запущен")
+print("2 + 2 =", add(2, 2))
