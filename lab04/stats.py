@@ -33,6 +33,7 @@ def read_valid(lines: list[str]) -> list[dict]:
         try:
             records.append(parse_record(line))
         except ValueError:
+            #плохую строку молча пропускаем
             continue
     return records
 
